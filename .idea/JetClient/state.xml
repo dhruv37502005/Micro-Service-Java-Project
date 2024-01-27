@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JetClientState">
+    <option name="folders">
+      <list>
+        <folderState>
+          <option name="id" value="0604c077-4216-4846-83c0-bac4e7057b3f" />
+          <option name="name" value="api test" />
+          <option name="requests">
+            <list>
+              <requestState>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Rudra&quot;,&#10;  &quot;email&quot;: &quot;rudra@gmail.com&quot;,&#10;  &quot;about&quot;: &quot;I am developing java project&quot;,&#10;  &quot;ratings&quot;: []&#10;}" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="6a7febdf-c12a-4b6f-9577-0e245674b09c" />
+                <option name="method" value="PUT" />
+                <option name="name" value="users" />
+                <option name="url" value="http://localhost:8081/users/023f554a-a2ff-4549-9720-67930af3f521" />
+              </requestState>
+              <requestState>
+                <option name="id" value="de7fbcdc-472e-4139-8fa1-98599343f839" />
+                <option name="method" value="GET" />
+                <option name="name" value="hotels" />
+                <option name="url" value="http://localhost:8082/hotels" />
+              </requestState>
+            </list>
+          </option>
+          <option name="sortWeight" value="1000000" />
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="folderPath" value="C:\Users\hp\Desktop\new\Micro-Service-Java-Project\.jetclient" />
+            </synchronizationPropertiesState>
+          </option>
+        </folderState>
+      </list>
+    </option>
     <option name="id" value="bbfb762f-5088-4b6f-90ad-6392acfc413d" />
   </component>
 </project>
