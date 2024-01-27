@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="UserService" />
         <module name="HotelService" />
+        <module name="ServiceRegistry" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="HotelService" options="-parameters" />
+      <module name="ServiceRegistry" options="-parameters" />
       <module name="UserService" options="-parameters" />
     </option>
   </component>
