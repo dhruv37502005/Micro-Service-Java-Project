@@ -8,11 +8,11 @@
 		<version>3.2.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.micro.hotel</groupId>
-	<artifactId>HotelService</artifactId>
+	<groupId>com.micro.RatingService</groupId>
+	<artifactId>RatingService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>HotelService</name>
-	<description>Service used to store hotels</description>
+	<name>RatingService</name>
+	<description>Implementing Rating Service</description>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2023.0.0</spring-cloud.version>

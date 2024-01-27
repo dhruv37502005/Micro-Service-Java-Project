@@ -34,6 +34,26 @@
                 <option name="name" value="hotels" />
                 <option name="url" value="http://localhost:8082/hotels" />
               </requestState>
+              <requestState>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;userId&quot;: &quot;023f554a-a2ff-4549-9720-67930af3f521&quot;,&#10;  &quot;hotelId&quot;: &quot;d2038849-c005-45d8-901c-e9fa8669436c&quot;,&#10;  &quot;rating&quot;: 9,&#10;  &quot;feedback&quot;: &quot;basic&quot;&#10;}" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="86e42c53-861d-4289-8e82-223290b985c3" />
+                <option name="method" value="GET" />
+                <option name="name" value="rating" />
+                <option name="url" value="http://localhost:8083/ratings/hotels/d2038849-c005-45d8-901c-e9fa8669436c" />
+              </requestState>
             </list>
           </option>
           <option name="sortWeight" value="1000000" />
