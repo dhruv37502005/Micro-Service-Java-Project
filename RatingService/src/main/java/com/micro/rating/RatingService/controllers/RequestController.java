@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
@@ -28,9 +29,14 @@ public class RequestController {
         return ResponseEntity.ok(ratingService.getAllRatings());
     }
 
+//    @Autowired
+//    private RestTemplate restTemplate;
+
     @GetMapping("/users/{userId}")
     public ResponseEntity<List<Rating>> getRatingsBuUserId(@PathVariable String userId){
         return ResponseEntity.ok(ratingService.getRatingByUserId(userId));
+        //updating to use restTemplate
+
     }
 
     @GetMapping("/hotels/{hotelId}")
