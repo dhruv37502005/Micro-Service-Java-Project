@@ -1,14 +1,25 @@
-A java based microservice project with different tools used like
--java 17, 
--springboot,
--lombok, 
--postgresql,  
--maven, 
--Rest Template,
--jpa hibernate, 
--API gateway, 
--OKTA auth and much more
 
-SO, WHATS SPECIAL RIGHT? ---well this project is just created to implement MICROSERVICE ARCHITECTURE.
-SO, WHATS SPECIAL IN THAT RIGHT? ---well micro service allow us to build different application with almost no dependencies on each other with different databases and can also communicate to each other.
-HUHHH SO, NO DEPENDENCIES THEN HOW WILL THEY COMMUNICATE? ---well to solve that i have used SPRING CLOUD EUREKA and FEIGN CLIENT (if u want i have also included Rest Template) to communicate to different services.
+# MICRO-SERVICE-JAVA-project
+#### SO, WHATS SPECIAL WITH THIS PROJECT RIGHT?
+- well this project is created to implement MICROSERVICE ARCHITECTURE. 
+#### SO, WHATS SPECIAL IN MICROSERVICE?
+- well micro service allow us to build independently deployable services with less dependencies on each other
+- allowing each service focusing on a specific business capability and allowing different databases for each service.
+#### HUHHH SO, DIFFERENT DATABASES THEN HOW WILL THEY COMMUNICATE?
+- they communicates with others through well-defined APIs. I have used SPRING CLOUD EUREKA and FEIGN CLIENT (if u want i have also included REST TEMPLATE) to communicate to different services.
+
+
+**Framework:** Springboot, Hibernate JPA (ORM)
+
+**Server:** Spring Cloud Eureka
+
+**Authentication:** OKTA auth
+
+**Database:** PostgreSQL
+
+**Tools** Lombok, Maven, Rest Template, API Gateway
+
+
+
+![Logo](https://images.app.goo.gl/KzT1kvfZ5jZWnLao6)
+
