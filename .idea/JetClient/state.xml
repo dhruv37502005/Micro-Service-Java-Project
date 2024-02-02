@@ -11,7 +11,7 @@
               <requestState>
                 <option name="body">
                   <bodyState>
-                    <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Rudra&quot;,&#10;  &quot;email&quot;: &quot;rudra@gmail.com&quot;,&#10;  &quot;about&quot;: &quot;I am developing java project&quot;,&#10;  &quot;ratings&quot;: []&#10;}" />
+                    <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Om&quot;,&#10;  &quot;email&quot;: &quot;om@gmail.com&quot;,&#10;  &quot;about&quot;: &quot;I am developing c++ project&quot;,&#10;  &quot;ratings&quot;: []&#10;}" />
                     <option name="type" value="JSON" />
                   </bodyState>
                 </option>
@@ -24,9 +24,9 @@
                   </list>
                 </option>
                 <option name="id" value="6a7febdf-c12a-4b6f-9577-0e245674b09c" />
-                <option name="method" value="PUT" />
+                <option name="method" value="GET" />
                 <option name="name" value="users" />
-                <option name="url" value="http://localhost:8081/users/023f554a-a2ff-4549-9720-67930af3f521" />
+                <option name="url" value="http://localhost:8081/users/f4c6f89a-1d38-4e80-8276-54a8f907cf6c" />
               </requestState>
               <requestState>
                 <option name="id" value="de7fbcdc-472e-4139-8fa1-98599343f839" />
@@ -37,7 +37,7 @@
               <requestState>
                 <option name="body">
                   <bodyState>
-                    <option name="raw" value="{&#10;  &quot;userId&quot;: &quot;023f554a-a2ff-4549-9720-67930af3f521&quot;,&#10;  &quot;hotelId&quot;: &quot;d2038849-c005-45d8-901c-e9fa8669436c&quot;,&#10;  &quot;rating&quot;: 9,&#10;  &quot;feedback&quot;: &quot;basic&quot;&#10;}" />
+                    <option name="raw" value="{&#10;  &quot;ratingId&quot;: &quot;b82f1269-6f75-4781-a855-3ee95bfaf01f&quot;,&#10;  &quot;userId&quot;: &quot;f1a4314f-5f1d-4c4c-b985-f404ddb57356&quot;,&#10;  &quot;hotelId&quot;: &quot;d2038849-c005-45d8-901c-e9fa8669436c&quot;,&#10;  &quot;rating&quot;: 7,&#10;  &quot;feedback&quot;: &quot;ok&quot;&#10;}" />
                     <option name="type" value="JSON" />
                   </bodyState>
                 </option>
@@ -52,7 +52,7 @@
                 <option name="id" value="86e42c53-861d-4289-8e82-223290b985c3" />
                 <option name="method" value="GET" />
                 <option name="name" value="rating" />
-                <option name="url" value="http://localhost:8083/ratings/hotels/d2038849-c005-45d8-901c-e9fa8669436c" />
+                <option name="url" value="http://localhost:8083/ratings/users/f4c6f89a-1d38-4e80-8276-54a8f907cf6c" />
               </requestState>
             </list>
           </option>

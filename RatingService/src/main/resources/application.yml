@@ -13,7 +13,7 @@ spring:
     show-sql: true
 
   application:
-    name: RATING_SERVICE
+    name: rating-service
 
 eureka:
   instances:
