@@ -21,5 +21,5 @@
 
 
 
-![Logo](https://images.app.goo.gl/KzT1kvfZ5jZWnLao6)
+
 
